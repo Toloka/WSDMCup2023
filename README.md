@@ -1,5 +1,8 @@
 # Toloka Visual Question Answering Challenge at WSDM Cup 2023
 
+- **CodaLab:** <https://codalab.lisn.upsaclay.fr/competitions/7434>
+- **Dataset:**: <https://doi.org/10.5281/zenodo.7057740>
+
 ## Dataset
 
 Our dataset consists of the images associated with textual questions. One entry (instance) in our dataset is a question-image pair labeled with the ground truth coordinates of a bounding box containing the visual answer to the given question. The images were obtained from a CC BY-licensed subset of the Microsoft Common Objects in Context dataset, [MS COCO](https://cocodataset.org/). All data labeling was performed on the Toloka crowdsourcing platform, <https://toloka.ai/>. The entire dataset can be downloaded at <https://doi.org/10.5281/zenodo.7057740>.
