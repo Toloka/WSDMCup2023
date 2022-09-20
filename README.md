@@ -1,7 +1,7 @@
 # Toloka Visual Question Answering Challenge at WSDM Cup 2023
 
 - **CodaLab:** <https://codalab.lisn.upsaclay.fr/competitions/7434>
-- **Dataset:**: <https://doi.org/10.5281/zenodo.7057740>
+- **Dataset:** <https://doi.org/10.5281/zenodo.7057740>
 
 ## Dataset
 
