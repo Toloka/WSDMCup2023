@@ -2,7 +2,7 @@
 
 We challenge you with a visual question answering task! **Given an image and a textual question, draw the bounding box around the object correctly responding to that question.**
 
-| Image and Answer | Question |
+| Question | Image and Answer |
 | --- | --- |
 | What do you use to hit the ball? | <img src="https://tlk-infra-front.azureedge.net/portal-static/images/wsdm2023/tennis/x2/image.webp" width="228" alt="What do you use to hit the ball?"> |
 | What do people use for cutting? | <img src="https://tlk-infra-front.azureedge.net/portal-static/images/wsdm2023/scissors/x2/image.webp" width="228" alt="What do people use for cutting?"> |
