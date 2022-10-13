@@ -8,6 +8,7 @@ We challenge you with a visual question answering task! **Given an image and a t
 | What do people use for cutting? | <img src="https://tlk-infra-front.azureedge.net/portal-static/images/wsdm2023/scissors/x2/image.webp" width="228" alt="What do people use for cutting?"> |
 | What do we use to support the immune system and get vitamin C? | <img src="https://tlk-infra-front.azureedge.net/portal-static/images/wsdm2023/juice/x2/image.webp" width="228" alt="What do we use to support the immune system and get vitamin C?"> |
 
+- **Competition:** <https://toloka.ai/challenges/wsdm2023>
 - **CodaLab:** <https://codalab.lisn.upsaclay.fr/competitions/7434>
 - **Dataset:** <https://doi.org/10.5281/zenodo.7057740>
 
