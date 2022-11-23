@@ -1,0 +1,14 @@
+FROM pytorch/pytorch:1.12.1-cuda11.3-cudnn8-runtime
+
+RUN apt-get update
+RUN apt-get install ffmpeg libsm6 libxext6 git gcc -y
+
+RUN pip install --no-input wget opencv-python pandas tqdm gdown numpy joblib ftfy regex pycocotools scipy
+RUN git clone https://github.com/WongKinYiu/yolor
+RUN pip -q install --no-input git+https://github.com/openai/CLIP.git
+
+RUN gdown 1Tdn3yqpZ79X7R1Ql0zNlNScB1Dv9Fp76
+
+COPY run.py ./run.py
+
+ENTRYPOINT [ "python", "./run.py" ]
