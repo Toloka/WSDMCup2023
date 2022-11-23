@@ -34,7 +34,3 @@ The input file will be stored in `/mnt/data/test.csv` and the input images will 
 ## Hardware Requirements
 
 We will run your solution on a machine with one Nvidia A100 80 GB GPU, 16 CPU cores, and 200 GB of RAM. Your Docker image must perform the inference in at most 3 hours on this machine. In other words, the `docker run` command must finish in 3 hours.
-
-## Sharing Your Image
-
-You will need to [push your image to Docker Hub](https://docs.docker.com/docker-hub/repos/) and share a link with us.
