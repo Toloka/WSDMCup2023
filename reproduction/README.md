@@ -16,7 +16,7 @@ python download_imgs.py
 
 ## Building an Image
 
-You use our example of a `dockerfile`. To build it, run
+You can use our example of a `dockerfile`. To build it, run
 ```bash
 docker build . --tag wsdm2023 --network=host 
 ```
