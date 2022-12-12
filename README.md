@@ -26,7 +26,7 @@ Licensed under the Apache License, Version 2.0. See LICENSE-APACHE.txt file for 
 
 ## Reproduction
 
-The final score will be evaluated on the private test dataset during Reproduction phase. We kindly ask you to create a docker image and share it with us. We put an instruction how to create a docker image in `reproduction` directory and we will provide more details about sharing it with us later. 
+The final score will be evaluated on the private test dataset during Reproduction phase. We kindly ask you to create a docker image and share it with us by December 19th 23:59 AoE in [this form](https://docs.google.com/forms/d/e/1FAIpQLSfWt-c2OvfXPcOQ-J7EmIh1AOAjiojH7RT33bRgchI4evtvLw/viewform?usp=sf_link). We put an instruction how to create a docker image in `reproduction` directory. 
 
 We will run your solution on a machine with one Nvidia A100 80 GB GPU, 16 CPU cores, and 200 GB of RAM. Your Docker image must perform the inference in at most 3 hours on this machine. In other words, the docker run command must finish in 3 hours.
 
