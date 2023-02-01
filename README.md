@@ -24,7 +24,7 @@ We offer a zero-shot baseline in `Baseline.ipynb`. First, it uses a detection mo
 
 Licensed under the Apache License, Version 2.0. See LICENSE-APACHE.txt file for more details.
 
-# Crowdsourcing Baseline
+## Crowdsourcing Baseline
 
 We evaluated how well non-expert human annotators can solve our task by running a dedicated round of crowdsourcing annotations on the [Toloka](https://toloka.ai/) crowdsourcing platform. We found them to tackle this task successfully without knowing the ground truth. On all three subsets of our data, the average IoU value was 0.87 &pm; 0.01, which we consider as a *strong human baseline* for our task. Krippendorff's &alpha; coefficients for the public test was 0.68 and for the private test was 0.66, showing the decent agreement between the responses; we used 1 &minus; IoU as the distance metric when calculating the &alpha; coefficient. We selected the bounding boxes which were the most similar to the ground truth data to indicate the upper bound of non-expert annotation quality; `*_crowd_baseline.csv` files contain these responses.
 
