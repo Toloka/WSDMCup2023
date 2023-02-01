@@ -18,11 +18,15 @@ Our dataset consists of the images associated with textual questions. One entry 
 
 Licensed under the Creative Commons Attribution 4.0 License. See LICENSE-CC-BY.txt file for more details.
 
-## Baseline
+## Zero-Shot Baseline
 
 We offer a zero-shot baseline in `Baseline.ipynb`. First, it uses a detection model, YOLOR, to generate candidate rectangles. Then, it applies CLIP to measure the similarity between the question and a part of the image bounded by each candidate rectangle. To make a prediction, it uses the candidate with the highest similarity. This baseline method achieves IoU = 0.20 on both public and private test subsets.
 
 Licensed under the Apache License, Version 2.0. See LICENSE-APACHE.txt file for more details.
+
+# Crowdsourcing Baseline
+
+We evaluated how well non-expert human annotators can solve our task by running a dedicated round of crowdsourcing annotations on the [Toloka](https://toloka.ai/) crowdsourcing platform. We found them to tackle this task successfully without knowing the ground truth. On all three subsets of our data, the average IoU value was 0.87 &pm; 0.01, which we consider as a *strong human baseline* for our task. Krippendorff's &alpha; coefficients for the public test was 0.68 and for the private test was 0.66, showing the decent agreement between the responses; we used 1 &minus; IoU as the distance metric when calculating the &alpha; coefficient. We selected the bounding boxes which were the most similar to the ground truth data to indicate the upper bound of non-expert annotation quality; `*_crowd_baseline.csv` files contain these responses.
 
 ## Reproduction
 
