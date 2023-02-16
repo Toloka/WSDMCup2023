@@ -14,7 +14,7 @@ We challenge you with a visual question answering task! **Given an image and a t
 
 ## Dataset
 
-Our dataset consists of the images associated with textual questions. One entry (instance) in our dataset is a question-image pair labeled with the ground truth coordinates of a bounding box containing the visual answer to the given question. The images were obtained from a CC BY-licensed subset of the Microsoft Common Objects in Context dataset, [MS COCO](https://cocodataset.org/). All data labeling was performed on the Toloka crowdsourcing platform, <https://toloka.ai/>. The entire dataset can be downloaded at <https://doi.org/10.5281/zenodo.7057740>.
+Our dataset consists of the images associated with textual questions. One entry (instance) in our dataset is a question-image pair labeled with the ground truth coordinates of a bounding box containing the visual answer to the given question. The images were obtained from a CC BY-licensed subset of the Microsoft Common Objects in Context dataset, [MS COCO](https://cocodataset.org/). All data labeling was performed on the Toloka crowdsourcing platform, <https://toloka.ai/>. The entire dataset can be downloaded at <https://doi.org/10.5281/zenodo.7057740>. We also uploaded our dataset to [Kaggle](https://www.kaggle.com/datasets/dustalov/toloka-wsdm-cup-2023-vqa) and [GitHub Packages](https://github.com/Toloka/WSDMCup2023/pkgs/container/wsdmcup2023).
 
 Licensed under the Creative Commons Attribution 4.0 License. See LICENSE-CC-BY.txt file for more details.
 
