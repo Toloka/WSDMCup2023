@@ -12,6 +12,25 @@ We challenge you with a visual question answering task! **Given an image and a t
 - **CodaLab:** <https://codalab.lisn.upsaclay.fr/competitions/7434>
 - **Dataset:** <https://doi.org/10.5281/zenodo.7057740>
 
+## Citation
+
+Please cite the challenge results or dataset description as follows.
+
+- Ustalov D., Pavlichenko N., Likhobaba D., and Smirnova A. [WSDM Cup 2023 Challenge on Visual Question Answering](http://ceur-ws.org/Vol-3357/invited1.pdf). *Proceedings of the 4th Crowd Science Workshop on Collaboration of Humans and Learning Algorithms for Data Labeling.* Singapore, 2023, pp.&nbsp;1&ndash;7.
+
+```bibtex
+  author    = {Ustalov, Dmitry and Pavlichenko, Nikita and Likhobaba, Daniil and Smirnova, Alisa},
+  title     = {{WSDM~Cup 2023 Challenge on Visual Question Answering}},
+  year      = {2023},
+  booktitle = {Proceedings of the 4th Crowd Science Workshop on Collaboration of Humans and Learning Algorithms for Data Labeling},
+  number    = {3357},
+  pages     = {1--7},
+  address   = {Singapore},
+  issn      = {1613-0073},
+  url       = {http://ceur-ws.org/Vol-3357/invited1.pdf},
+  language  = {english},
+```
+
 ## Dataset
 
 Our dataset consists of the images associated with textual questions. One entry (instance) in our dataset is a question-image pair labeled with the ground truth coordinates of a bounding box containing the visual answer to the given question. The images were obtained from a CC BY-licensed subset of the Microsoft Common Objects in Context dataset, [MS COCO](https://cocodataset.org/). All data labeling was performed on the Toloka crowdsourcing platform, <https://toloka.ai/>. We release the entire dataset under the CC BY license:
