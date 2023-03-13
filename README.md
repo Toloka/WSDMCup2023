@@ -8,6 +8,8 @@ We challenge you with a visual question answering task! **Given an image and a t
 | What do people use for cutting? | <img src="https://tlk-infra-front.azureedge.net/portal-static/images/wsdm2023/scissors/x2/image.webp" width="228" alt="What do people use for cutting?"> |
 | What do we use to support the immune system and get vitamin C? | <img src="https://tlk-infra-front.azureedge.net/portal-static/images/wsdm2023/juice/x2/image.webp" width="228" alt="What do we use to support the immune system and get vitamin C?"> |
 
+## Links
+
 - **Competition:** <https://toloka.ai/challenges/wsdm2023>
 - **CodaLab:** <https://codalab.lisn.upsaclay.fr/competitions/7434>
 - **Dataset:** <https://doi.org/10.5281/zenodo.7057740>
@@ -24,7 +26,6 @@ Please cite the challenge results or dataset description as follows.
   title     = {{WSDM~Cup 2023 Challenge on Visual Question Answering}},
   year      = {2023},
   booktitle = {Proceedings of the 4th Crowd Science Workshop on Collaboration of Humans and Learning Algorithms for Data Labeling},
-  number    = {3357},
   pages     = {1--7},
   address   = {Singapore},
   issn      = {1613-0073},
