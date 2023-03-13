@@ -19,6 +19,7 @@ Please cite the challenge results or dataset description as follows.
 - Ustalov D., Pavlichenko N., Likhobaba D., and Smirnova A. [WSDM Cup 2023 Challenge on Visual Question Answering](http://ceur-ws.org/Vol-3357/invited1.pdf). *Proceedings of the 4th Crowd Science Workshop on Collaboration of Humans and Learning Algorithms for Data Labeling.* Singapore, 2023, pp.&nbsp;1&ndash;7.
 
 ```bibtex
+@inproceedings{TolokaWSDMCup2023,
   author    = {Ustalov, Dmitry and Pavlichenko, Nikita and Likhobaba, Daniil and Smirnova, Alisa},
   title     = {{WSDM~Cup 2023 Challenge on Visual Question Answering}},
   year      = {2023},
@@ -29,6 +30,7 @@ Please cite the challenge results or dataset description as follows.
   issn      = {1613-0073},
   url       = {http://ceur-ws.org/Vol-3357/invited1.pdf},
   language  = {english},
+}
 ```
 
 ## Dataset
