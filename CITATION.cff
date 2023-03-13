@@ -1,0 +1,61 @@
+cff-version: 1.2.0
+title: Toloka Visual Question Answering Dataset
+message: >-
+  If you use this dataset, please cite the paper from
+  preferred-citation.
+type: dataset
+authors:
+  - family-names: Ustalov
+    given-names: Dmitry
+    orcid: "https://orcid.org/0000-0002-9979-2188"
+  - family-names: Pavlichenko
+    given-names: Nikita
+    orcid: "https://orcid.org/0000-0002-7330-393X"
+  - family-names: Likhobaba
+    given-names: Daniil
+    orcid: "https://orcid.org/0000-0002-0322-3774"
+  - family-names: Smirnova
+    given-names: Alisa
+    orcid: "https://orcid.org/0000-0002-7108-9917"
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.7057740
+    description: Zenodo
+  - type: url
+    value: "https://huggingface.co/datasets/toloka/WSDMCup2023"
+    description: Hugging Face
+  - type: url
+    value: "https://github.com/Toloka/WSDMCup2023"
+    description: GitHub
+  - type: url
+    value: "https://ceur-ws.org/Vol-3357/invited1.pdf"
+    description: Paper
+repository-code: "https://github.com/Toloka/WSDMCup2023"
+url: "https://toloka.ai/challenges/wsdm2023/"
+repository-artifact: >-
+  https://github.com/Toloka/WSDMCup2023/pkgs/container/wsdmcup2023
+license: CC-BY-4.0
+preferred-citation:
+  type: conference-paper
+  authors:
+    - family-names: Ustalov
+      given-names: Dmitry
+    - family-names: Pavlichenko
+      given-names: Nikita
+    - family-names: Likhobaba
+      given-names: Daniil
+    - family-names: Smirnova
+      given-names: Alisa
+  title: WSDM Cup 2023 Challenge on Visual Question Answering
+  year: 2023
+  collection-title: Proceedings of the 4th Crowd Science Workshop on Collaboration of Humans and Learning Algorithms for Data Labeling
+  conference:
+    name: "4th Crowd Science Workshop: Collaboration of Humans and Learning Algorithms for Data Labeling"
+    country: SG
+    city: Singapore
+    date-start: "2023-03-03"
+    date-end: "2023-03-03"
+  start: 1
+  end: 7
+  url: "http://ceur-ws.org/Vol-3357/invited1.pdf"
+  issn: 1613-0073
