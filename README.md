@@ -4,9 +4,9 @@ We challenge you with a visual question answering task! **Given an image and a t
 
 | Question | Image and Answer |
 | --- | --- |
-| What do you use to hit the ball? | <img src="https://tlk-infra-front.azureedge.net/portal-static/images/wsdm2023/tennis/x2/image.webp" width="228" alt="What do you use to hit the ball?"> |
-| What do people use for cutting? | <img src="https://tlk-infra-front.azureedge.net/portal-static/images/wsdm2023/scissors/x2/image.webp" width="228" alt="What do people use for cutting?"> |
-| What do we use to support the immune system and get vitamin C? | <img src="https://tlk-infra-front.azureedge.net/portal-static/images/wsdm2023/juice/x2/image.webp" width="228" alt="What do we use to support the immune system and get vitamin C?"> |
+| What do you use to hit the ball? | <img src="https://tlkfrontprod.azureedge.net/portal-production/static/uploaded/images/KUsGAc_eqdMcNxkBXzzl/KUsGAc_eqdMcNxkBXzzl_webp_1280_x2.webp" width="228" alt="What do you use to hit the ball?"> |
+| What do people use for cutting? | <img src="https://tlkfrontprod.azureedge.net/portal-production/static/uploaded/images/brXEVYckNLfQKcfNu4DF/brXEVYckNLfQKcfNu4DF_webp_1280_x2.webp" width="228" alt="What do people use for cutting?"> |
+| What do we use to support the immune system and get vitamin C? | <img src="https://tlkfrontprod.azureedge.net/portal-production/static/uploaded/images/HQ0A-ZvZCGCmYfTs83K7/HQ0A-ZvZCGCmYfTs83K7_webp_1280_x2.webp" width="228" alt="What do we use to support the immune system and get vitamin C?"> |
 
 ## Links
 
