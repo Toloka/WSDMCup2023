@@ -45,11 +45,33 @@ Our dataset consists of the images associated with textual questions. One entry 
 
 Licensed under the Creative Commons Attribution 4.0 License. See LICENSE-CC-BY.txt file for more details.
 
-## Zero-Shot Baseline
+## Zero-Shot Baselines
 
-We offer a zero-shot baseline in `Baseline.ipynb`. First, it uses a detection model, YOLOR, to generate candidate rectangles. Then, it applies CLIP to measure the similarity between the question and a part of the image bounded by each candidate rectangle. To make a prediction, it uses the candidate with the highest similarity. This baseline method achieves IoU = 0.20 on both public and private test subsets.
+We provide zero-shot baselines in `zeroshot_baselines` folder. All notebooks are made to run in Colab
+
+#### YOLOR + CLIP
+
+This baseline was provided to participants of WSDM Cup 2023 Challenge. First, it uses a detection model, YOLOR, to generate candidate rectangles. Then, it applies CLIP to measure the similarity between the question and a part of the image bounded by each candidate rectangle. To make a prediction, it uses the candidate with the highest similarity. This baseline method achieves **IoU = 0.21** on private test subset.
 
 Licensed under the Apache License, Version 2.0. See LICENSE-APACHE.txt file for more details.
+
+#### OVSeg + SAM
+
+Another zero-shot baseline, called OVSeg, utilizes SAM as a proposal generator instead of MaskFormer in the original setup. This approach achieves **IoU = 0.35** on the private test subset.
+
+Licensed under the Creative Commons Attribution 4.0 License.
+
+#### OFA + SAM
+
+Last one is primarily based on OFA, combined with bounding box correction using SAM. To solve the task, we followed a two-step zero-shot setup.
+
+First, we address the Visual Question Answering, where the model is given a prompt `{question} Name an object in the picture` along with an image. The model provides the name of a clue object to the question.
+
+In the second step, an object corresponding to the answer from the previous step is annotated using the prompt `which region does the text "{answer}" describe?`, resulting in IoU = 0.42.
+
+Subsequently, with the obtained bounding boxes, SAM generates the corresponding masks for the annotated object, which are then transformed into bounding boxes. This enabled us to achieve **IoU = 0.45** with this baseline.
+
+Licensed under the Apache License, Version 2.0.
 
 ## Crowdsourcing Baseline
 
