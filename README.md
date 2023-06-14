@@ -59,6 +59,8 @@ Licensed under the Apache License, Version 2.0. See LICENSE-APACHE.txt file for 
 
 Another zero-shot baseline, called OVSeg, utilizes SAM as a proposal generator instead of MaskFormer in the original setup. This approach achieves **IoU = 0.35** on the private test subset.
 
+Licensed under the Creative Commons Attribution 4.0 License.
+
 #### OFA + SAM
 
 Last one is primarily based on OFA, combined with bounding box correction using SAM. To solve the task, we followed a two-step zero-shot setup.
@@ -69,6 +71,7 @@ In the second step, an object corresponding to the answer from the previous step
 
 Subsequently, with the obtained bounding boxes, SAM generates the corresponding masks for the annotated object, which are then transformed into bounding boxes. This enabled us to achieve **IoU = 0.45** with this baseline.
 
+Licensed under the Apache License, Version 2.0.
 
 ## Crowdsourcing Baseline
 
