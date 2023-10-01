@@ -18,18 +18,16 @@ We challenge you with a visual question answering task! **Given an image and a t
 
 Please cite the challenge results or dataset description as follows.
 
-- Ustalov D., Pavlichenko N., Likhobaba D., and Smirnova A. [WSDM Cup 2023 Challenge on Visual Question Answering](http://ceur-ws.org/Vol-3357/invited1.pdf). *Proceedings of the 4th Crowd Science Workshop on Collaboration of Humans and Learning Algorithms for Data Labeling.* Singapore, 2023, pp.&nbsp;1&ndash;7.
+- Ustalov D., Pavlichenko N., Koshelev S., Likhobaba D., and Smirnova A. [Toloka Visual Question Answering Benchmark](https://arxiv.org/abs/2309.16511). 2023. arXiv: [2309.16511 [cs.CV]](https://arxiv.org/abs/2309.16511).
 
 ```bibtex
 @inproceedings{TolokaWSDMCup2023,
-  author    = {Ustalov, Dmitry and Pavlichenko, Nikita and Likhobaba, Daniil and Smirnova, Alisa},
-  title     = {{WSDM~Cup 2023 Challenge on Visual Question Answering}},
+  author    = {Ustalov, Dmitry and Pavlichenko, Nikita and Koshelev, Sergey and Likhobaba, Daniil and Smirnova, Alisa},
+  title     = {{Toloka Visual Question Answering Benchmark}},
   year      = {2023},
-  booktitle = {Proceedings of the 4th Crowd Science Workshop on Collaboration of Humans and Learning Algorithms for Data Labeling},
-  pages     = {1--7},
-  address   = {Singapore},
-  issn      = {1613-0073},
-  url       = {http://ceur-ws.org/Vol-3357/invited1.pdf},
+  eprint    = {2309.16511},
+  eprinttype = {arxiv},
+  eprintclass = {cs.CV},
   language  = {english},
 }
 ```
